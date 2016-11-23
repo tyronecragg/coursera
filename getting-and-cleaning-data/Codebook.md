@@ -53,10 +53,6 @@ The dataset includes the following files:
 
 - `Codebook.md`
 
-- scripts
+- `run_analysis.R`
 
-	- `run_analysis.R`
-
-- output
-
-	- `tidy_data.txt`
+- `tidy_data.txt`

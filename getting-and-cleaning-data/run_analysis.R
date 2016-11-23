@@ -97,6 +97,6 @@ average_data = data %>%
 #Rename all summarised columns
 names(average_data)[3:ncol(average_data)] = paste("average", names(average_data)[3:ncol(average_data)], sep="_")
 
-#Write data sets
-write.table(average_data, "output/tidy_data.txt", row.name=F)
+#Write data set
+write.table(average_data, "tidy_data.txt", row.name=F)
 

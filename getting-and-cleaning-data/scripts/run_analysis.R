@@ -89,6 +89,6 @@ average_data = data %>%
 names(average_data)[3:ncol(average_data)] = paste("average", names(average_data)[3:ncol(average_data)], sep="_")
 
 #Write data sets
-write.csv(data, "tidy_data.csv", row.names=F)
-write.csv(average_data, "tidy_average_data.csv", row.names=F)
+write.csv(data, "output/tidy_data.csv", row.names=F)
+write.csv(average_data, "output/tidy_average_data.csv", row.names=F)
 

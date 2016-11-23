@@ -1,8 +1,6 @@
 # Codebook
 
-## Human Activity Recognition Using Smartphones Dataset
-
-The data described in the original codebook has been modified as follows:
+The `Human Activity Recognition Using Smartphones` dataset has been modified as follows:
 
 ### tidy_data.txt
 
@@ -10,34 +8,31 @@ The files `train.txt` and `test.txt` were combined. The activity labels from `ac
 
 #### Variables
 
-The variable **subject** denotes the identity of the subject from whom the readings were taken.
-
+The variable **subject** denotes the identity of the subject from whom the readings were taken.<br />
 The variable **activity** denotes the activity the subject was performing when the reading was taken.
 
 The following signal readings are retained:
 
-**tBodyAcc**,
-**tGravityAcc**,
-**tBodyAccJerk**,
-**tBodyGyro**,
-**tBodyGyroJerk**,
-**tBodyAccMag**,
-**tGravityAccMag**,
-**tBodyAccJerkMag**,
-**tBodyGyroMag**,
-**tBodyGyroJerkMag**,
-**fBodyAcc**,
-**fBodyAccJerk**,
-**fBodyGyro**,
-**fBodyAccMag**,
-**fBodyAccJerkMag**,
-**fBodyGyroMag**,
-**fBodyGyroJerkMag**
+**t_body_acc**,
+**t_gravity_acc**,
+**t_body_acc_jerk**,
+**t_body_gyro**,
+**t_body_gyro_jerk**,
+**t_body_acc_mag**,
+**t_bravity_acc_mag**,
+**t_body_acc_jerk_mag**,
+**t_body_gyro_mag**,
+**t_body_gyro_jerk_mag**,
+**f_body_acc**,
+**f_body_acc_jerk**,
+**f_body_gyro**,
+**f_body_acc_mag**,
+**f_body_acc_jerk_mag**,
+**f_body_gyro_mag**,
+**f_body_gyro_jerk_mag**
 
-From these readings, the mean and standarad deviation values are included in the dataset. These are denoted within the variable names as **mean** and **std**.
-
-The prefix **t** denotes time, and the prefix **f** indicates frequency.
-
+From these readings, the mean and standarad deviation values are included in the dataset. These are denoted within the variable names as **mean** and **std**.<br />
+The prefix **t** denotes time, and the prefix **f** indicates frequency.<br />
 The suffixes **X**, **Y** and **Z** are used to denote signals in the X, Y and Z directions.
 
 All values are normailed between -1 and 1.

@@ -7,7 +7,7 @@ This project utilises the "Human Activity Recognition Using Smartphones Data Set
 The data used in this project can be downloaded [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). A full description of the data is located [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 ### Files
-The data should be unzipped into a folder named `data` within the working directory.
+The data above should be downloaded and unzipped into a folder named `data` within the working directory.
 The script file, `run_analysis.R`, should be placed in a folder named `scripts` within the working directory.
 
 ### Execution

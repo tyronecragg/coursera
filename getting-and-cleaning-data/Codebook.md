@@ -17,21 +17,37 @@ The variable 'activity' denotes the activity the subject was performing when the
 The following signal readings are included in the dataset:
 
 tBodyAcc
+
 tGravityAcc
+
 tBodyAccJerk
+
 tBodyGyro
+
 tBodyGyroJerk
+
 tBodyAccMag
+
 tGravityAccMag
+
 tBodyAccJerkMag
+
 tBodyGyroMag
+
 tBodyGyroJerkMag
+
 fBodyAcc
+
 fBodyAccJerk
+
 fBodyGyro
+
 fBodyAccMag
+
 fBodyAccJerkMag
+
 fBodyGyroMag
+
 fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are:
@@ -55,10 +71,15 @@ The prefix 'average' denotes that these readings have been averaged for each act
 
 The dataset includes the following files:
 
-- 'README.md'
+- `README.md`
 
-- 'run_analysis.R': The script used to create the output files
+- `Codebook.md`
 
-- 'tidy_data.txt'
+- scripts
 
-- 'tidy_average_data.txt'
+	- `run_analysis.R`: The script used to create the output files
+
+- output
+
+	- `tidy_data.txt`
+	- `tidy_average_data.txt`

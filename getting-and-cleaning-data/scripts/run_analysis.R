@@ -63,8 +63,8 @@ train_subjects = read.table("data/train/subject_train.txt")
 test_subjects = read.table("data/test/subject_test.txt")
 
 #Set subject variable name
-names(train_subjects) = "subject"
-names(test_subjects) = "subject"
+names(train_subjects) = "subject_id"
+names(test_subjects) = "subject_id"
 
 #Add subject to train and test
 train = cbind(train, train_subjects)
@@ -79,6 +79,9 @@ activity_labels = read.table("data/activity_labels.txt")
 #Rename activity label variables
 names(activity_labels) = c("label", "activity")
 
+#Convert activity to lowercase
+activity_labels$activity = tolower(activity_labels$activity)
+
 #Use descriptive activity names to name the activities in the data set
 data = merge(data, activity_labels, by="label", all.x=T, all.y=F)
 
@@ -88,13 +91,12 @@ data$label = NULL
 #From the data set, create a second, independent tidy data set with the average
 #of each variable for each activity and each subject.
 average_data = data %>%
-  group_by(subject, activity) %>%
+  group_by(subject_id, activity) %>%
   summarise_each(funs(mean))
 
 #Rename all summarised columns
 names(average_data)[3:ncol(average_data)] = paste("average", names(average_data)[3:ncol(average_data)], sep="_")
 
 #Write data sets
-write.table(data, "output/tidy_data.txt", row.name=F)
-write.table(average_data, "output/tidy_average_data.txt", row.name=F)
+write.table(average_data, "output/tidy_data.txt", row.name=F)
 

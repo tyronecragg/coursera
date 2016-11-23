@@ -19,7 +19,7 @@ The script file, `run_analysis.R`, reads in the data detailed above and complete
 - Create a second, independent tidy data set with the average of each variable for each activity and each subject
 
 ### Output
-Once the script has been executed, the tidied data files will be located at `output/tidy_data.txt` and `output/tidy_average_data.txt`.
+Once the script has been executed, the tidied data file will be located at `output/tidy_data.txt`.
 
 ### Codebook
 The codebook describing the variables in the tidied data files is located at `Codebook.md`.

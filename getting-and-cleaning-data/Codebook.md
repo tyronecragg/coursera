@@ -60,4 +60,3 @@ The dataset includes the following files:
 - output
 
 	- `tidy_data.txt`
-	- `tidy_average_data.txt`

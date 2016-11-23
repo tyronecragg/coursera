@@ -14,7 +14,7 @@ The variable **subject** denotes the identity of the subject from whom the readi
 
 The variable **activity** denotes the activity the subject was performing when the reading was taken.
 
-The following signal readings are included in the dataset:
+The following signal readings are retained:
 
 **tBodyAcc**,
 **tGravityAcc**,
@@ -34,15 +34,13 @@ The following signal readings are included in the dataset:
 **fBodyGyroMag**,
 **fBodyGyroJerkMag**
 
-The set of variables that were estimated from these signals are:
-
-**mean**: Mean value
-
-**std**: Standard deviation
+From these readings, the mean and standarad deviation values are included in the dataset. These are denoted within the variable names as **mean** and **std**.
 
 The prefix **t** denotes time, and the prefix **f** indicates frequency.
 
 The suffixes **X**, **Y** and **Z** are used to denote signals in the X, Y and Z directions.
+
+All values are normailed between -1 and 1.
 
 ### tidy_average_data.txt
 

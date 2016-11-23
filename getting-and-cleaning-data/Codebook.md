@@ -1,6 +1,6 @@
 # Codebook
 
-The `Human Activity Recognition Using Smartphones` dataset has been modified as follows:
+The [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) dataset has been modified as follows:
 
 ### tidy_data.txt
 

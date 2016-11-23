@@ -37,6 +37,7 @@ The following signal readings are included in the dataset:
 The set of variables that were estimated from these signals are:
 
 **mean**: Mean value
+
 **std**: Standard deviation
 
 The prefix **t** denotes time, and the prefix **f** indicates frequency.
@@ -49,7 +50,7 @@ The modified dataset above was used to create this second data set containing th
 
 #### Variables
 
-The prefix '**average** denotes that these readings have been averaged for each activity and each subject.
+The prefix **average** denotes that these readings have been averaged for each activity and each subject.
 
 ### Files
 

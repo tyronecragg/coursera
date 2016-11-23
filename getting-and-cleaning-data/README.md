@@ -1,10 +1,22 @@
 # Coursera Project - Getting and Cleaning Data
 
-## Script
-The script file is located at `scripts/run_analysis.R`
+## Data
+The data used in this project can be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. A full description of the data is located at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
+
+## Files
+The data should be unzipped into a folder named `data` within the working directory.
+The script file, `run_analysis.R`, should be placed in a folder named `scripts` within the working directory.
+
+## Execution
+The script file, `run_analysis.R`, reads in the data detailed above and completes the following 5 main tasks:
+- Merge the training and the test sets to create one data set
+- Extract only the measurements on the mean and standard deviation for each measurement
+- Use descriptive activity names to name the activities in the data set
+- Appropriately label the data set with descriptive variable names
+- Create a second, independent tidy data set with the average of each variable for each activity and each subject
 
 ## Output
-The tidied data files are located at `output/tidy_data.csv` and `output/tidy_average_data.csv`
+Once the script has been executed, the tidied data files will be located at `output/tidy_data.csv` and `output/tidy_average_data.csv`.
 
 ## Codebook
-The codebook describing the variables in the tidied data files is located at `Codebook.md`
+The codebook describing the variables in the tidied data files is located at `Codebook.md`.

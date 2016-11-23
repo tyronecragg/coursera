@@ -55,7 +55,7 @@ The dataset includes the following files:
 
 - scripts
 
-	- `run_analysis.R`: The script used to create the output files
+	- `run_analysis.R`
 
 - output
 

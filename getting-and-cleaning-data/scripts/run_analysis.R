@@ -32,6 +32,12 @@ features = gsub("[\\.]+", "_", features)
 #Replace trailing "_" with "" in features
 features = gsub("_$", "", features)
 
+#Place "_" between lowercase letter followed by uppercase letter
+features = gsub("([a-z])([A-Z])", "\\1_\\2", features)
+
+#Convert all features to lowercase
+features = tolower(features)
+
 #Label the data set with descriptive variable names
 names(train) = features
 names(test) = features

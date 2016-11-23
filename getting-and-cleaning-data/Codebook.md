@@ -10,54 +10,38 @@ The files `train.txt` and `test.txt` were combined. The activity labels from `ac
 
 #### Variables
 
-The variable 'subject' denotes the identity of the subject from whom the readings were taken.
+The variable **subject** denotes the identity of the subject from whom the readings were taken.
 
-The variable 'activity' denotes the activity the subject was performing when the reading was taken.
+The variable **activity** denotes the activity the subject was performing when the reading was taken.
 
 The following signal readings are included in the dataset:
 
-tBodyAcc
-
-tGravityAcc
-
-tBodyAccJerk
-
-tBodyGyro
-
-tBodyGyroJerk
-
-tBodyAccMag
-
-tGravityAccMag
-
-tBodyAccJerkMag
-
-tBodyGyroMag
-
-tBodyGyroJerkMag
-
-fBodyAcc
-
-fBodyAccJerk
-
-fBodyGyro
-
-fBodyAccMag
-
-fBodyAccJerkMag
-
-fBodyGyroMag
-
-fBodyGyroJerkMag
+**tBodyAcc**,
+**tGravityAcc**,
+**tBodyAccJerk**,
+**tBodyGyro**,
+**tBodyGyroJerk**,
+**tBodyAccMag**,
+**tGravityAccMag**,
+**tBodyAccJerkMag**,
+**tBodyGyroMag**,
+**tBodyGyroJerkMag**,
+**fBodyAcc**,
+**fBodyAccJerk**,
+**fBodyGyro**,
+**fBodyAccMag**,
+**fBodyAccJerkMag**,
+**fBodyGyroMag**,
+**fBodyGyroJerkMag**
 
 The set of variables that were estimated from these signals are:
 
-mean: Mean value
-std: Standard deviation
+**mean**: Mean value
+**std**: Standard deviation
 
-The prefix 't' denotes time and the prefix 'f' indicates frequency.
+The prefix **t** denotes time, and the prefix **f** indicates frequency.
 
-The suffixes 'X', 'Y' and 'Z' are used to denote signals in the X, Y and Z directions.
+The suffixes **X**, **Y** and **Z** are used to denote signals in the X, Y and Z directions.
 
 ### tidy_average_data.txt
 
@@ -65,7 +49,7 @@ The modified dataset above was used to create this second data set containing th
 
 #### Variables
 
-The prefix 'average' denotes that these readings have been averaged for each activity and each subject.
+The prefix '**average** denotes that these readings have been averaged for each activity and each subject.
 
 ### Files
 
